@@ -31,23 +31,23 @@ Built to showcase my skills, projects, blogs, and passion for cybersecurity and 
 
 ## Home Page
 
-![Home Page](images/screenshot-10.png)
+![Home Page](images/Screenshot1.png)
 
 ## About
 
-![About Section](Images/Screenshot-11.png)
+![About Section](images/Screenshot2.png)
 
 ## Project
 
-![Project Section](Images/Screenshot-12.png)
+![Project Section](images/Screenshot3.png)
 
 ## Skills
 
-![Skills Section](Images/Screenshot-13.png)
+![Skills Section](images/Screenshot4.png)
 
 ## All Project
 
-![All Project Section](Images/Screenshot-14.png)
+![All Project Section](images/Screenshot5.png)
 
 
 ---
