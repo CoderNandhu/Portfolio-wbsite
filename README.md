@@ -27,7 +27,28 @@ Built to showcase my skills, projects, blogs, and passion for cybersecurity and 
 
 ## 📸 Screenshots
 
-> _(Insert a few screenshots here if you want — Homepage, Blog Section, etc.)_
+# Screenshots
+
+## Home Page
+
+![Home Page](images/screenshot-10.png)
+
+## About
+
+![About Section](Images/Screenshot-11.png)
+
+## Project
+
+![Project Section](Images/Screenshot-12.png)
+
+## Skills
+
+![Skills Section](Images/Screenshot-13.png)
+
+## All Project
+
+![All Project Section](Images/Screenshot-14.png)
+
 
 ---
 
