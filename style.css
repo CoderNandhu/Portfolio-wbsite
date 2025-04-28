@@ -1,0 +1,117 @@
+/* Base Styles */
+body {
+    background: radial-gradient(ellipse at center, #131414 0%, #151414 100%);
+    color: #e0e0e0; /* Light gray text for better readability */
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+  }
+  
+  /* Neon Text (Soft and Modern) */
+  .neon-text {
+    color: #00ff99; /* Soft teal green */
+    text-shadow: 0 0 0px #00ff99, 0 0 3px #00ff99, 0 0 4px #00cc7a;
+  }
+  
+  /* Links Hover */
+  a {
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #00ff99;
+  }
+  
+  /* Buttons */
+  button, .btn {
+    background-color: #00ff99;
+    color: #0d0d0d;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #00cc7a;
+    color: #ffffff;
+  }
+  
+  /* Section Headings */
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  /* Card/Box Styling */
+  .card {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 14px rgba(0, 255, 153, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #111111;
+    color: #7f8c8d;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  footer img {
+    filter: brightness(0) invert(1);
+  }
+    
+/* 
+  .neon-text:hover {
+    color: #00ff99;
+    text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 20px #00ff99;
+  } */
+  
+  .neon-ring:hover {
+    box-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99;
+  }
+
+  
+  /* .neon-text {
+    color: #00ff99;
+    text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 20px #00ff99;
+  }
+   */
+ /* Perfect round tool card */
+.tool-card {
+    @apply flex flex-col items-center justify-center w-36 h-36 bg-black rounded-full border-2 border-transparent transition-all duration-300;
+  }
+  
+  /* Glow on hover */
+  .tool-card:hover {
+    border-color: #00ff99;
+    box-shadow: 0 0 20px #00ff99, 0 0 40px #00ff99, 0 0 60px #00ff99;
+    transform: scale(1.1);
+  }
+
+/* Project page styling project.html */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+
+
+  
